@@ -1,0 +1,50 @@
+.intro {
+  height: 100vh;
+  background: url("../img/Wakanda/Pantherwakanda1.png") center top/contain;
+  position: relative;
+}
+
+.intro-container {
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15%;
+}
+
+.intro-container h1 {
+  font-size: 3rem;
+  color: var(--grey-color);
+  margin-bottom: 5px;
+}
+
+.intro-container h2 {
+  font-size: 2rem;
+  color: var(--grey-color);
+  font-family: 'wakanda', sans-serif;
+  margin-bottom: 10px;
+}
+
+.intro-container p {
+  width: 60%;
+}
+
+article {
+  width: 40%;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+section:last-child {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+section> {
+  float: left;
+}

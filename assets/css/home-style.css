@@ -1,0 +1,324 @@
+/*---- Side section social media ----*/
+.side-social-media {
+  position: absolute;
+  left: 3rem;
+  top: 0;
+}
+
+.side-social-media li {
+  margin-bottom: 15px;
+}
+
+.side-social-media ul {
+  padding: 16rem 0 0 7px;
+  border-left: 3px solid var(--grey-color);
+  position: relative;
+}
+
+.side-social-media ul::before {
+  content: "";
+  width: 3px;
+  height: 250px;
+  background-color: var(--grey-color);
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+
+.side-social-media img {
+  width: 1.5rem;
+}
+
+/*---- Section "intro" ----*/
+.intro {
+  width: 80%;
+  height: 400px;
+  margin: 1rem auto 0;
+  background: url("../img/Accueil/Pantherhome1..png") no-repeat 80% 0 0;
+  padding: 10rem 0 3rem 8rem;
+  position: relative;
+}
+
+.intro img {
+  width: 80%;
+  position: absolute;
+  right: -12rem;
+  top: 0;
+}
+
+.intro h1 {
+  font-size: 3rem;
+  color: var(--grey-color);
+  margin-bottom: 5px;
+}
+
+.intro h2 {
+  font-size: 1.5rem;
+  color: var(--grey-color);
+  margin-bottom: 1rem;
+}
+
+.intro p {
+  text-align: justify;
+  font-size: .8rem;
+  margin: 1.5rem 0 0;
+  width: 20rem;
+  color: #aaa;
+}
+
+.intro p span {
+  display: block;
+  margin-top: 1rem;
+  font-size: .9rem;
+  text-decoration: underline;
+}
+
+/*---- Section "actors" ----*/
+.actors {
+  width: 100%;
+  height: 300px;
+  font-size: .9em;
+  color: #d1cfcf;
+  position: relative;
+}
+
+.actors-wrapper {
+  width: 90%;
+  padding-left: 2rem;
+  background-color: var(--dark-color);
+  position: absolute;
+  right: 0;
+}
+
+.actors li {
+  float: left;
+  height: 100%;
+  width: 49%;
+}
+
+.actors ul li img {
+  float: left;
+  height: 300px;
+  margin-right: 1rem;
+  transition: transform .2s ease-out;
+}
+
+.actors ul li img:hover {
+  transform: scale(1.1);
+}
+
+.actors .story {
+  width: 90%;
+  margin: auto;
+  padding: 2rem;
+}
+
+.story h2 {
+  font-size: 1.2rem;
+  color: #532b9e;
+  margin-bottom: .9rem;
+}
+
+.story p {
+  text-align: justify;
+}
+
+.story span {
+  display: block;
+  margin-top: 1rem;
+}
+
+/*---- T'Challa section ----*/
+.tchalla {
+  width: 80%;
+  margin: 9rem auto 0;
+}
+
+.tchalla .article-wrapper {
+  float: left;
+  width: 54%;
+
+}
+
+.tchalla .biography {
+  float: left;
+  padding-top: 2rem;
+}
+
+.tchalla article h2 {
+  color: #a08dc4;
+  margin-bottom: 1rem;
+}
+
+.tchalla p {
+  font-size: .9rem;
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+.tchalla aside,
+.tchalla aside h2 {
+  font-family: Cantarell, sans-serif;
+}
+
+.tchalla aside {
+  float: right;
+  color: #000;
+  position: relative;
+}
+
+.tchalla aside img {
+  height: 54%;
+  position: absolute;
+  left: 2rem;
+}
+
+.tchalla .text-wrapper {
+  text-align: center;
+  width: 24rem;
+  background-color: #dadada;
+  border-radius: 10px;
+  margin-top: 14rem;
+  padding: 16rem 0 0;
+}
+
+.tchalla .text-wrapper .div {
+  width: 85%;
+  text-align: left;
+  margin: 0 auto;
+  padding: 0 0 5rem 2rem;
+  font-size: .8rem;
+}
+
+.tchalla .text-wrapper h2,
+.tchalla .text-wrapper em {
+  font-weight: bold;
+}
+
+.tchalla .text-wrapper h2 {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.tchalla .text-wrapper p span {
+  font-size: .8rem;
+  display: inline-block;
+  color: #b1b1b1;
+  padding: 6px 5px;
+  border-radius: 5px;
+  background-color: var(--purple-color);
+}
+
+.tchalla .text-wrapper p span:nth-child(odd) {
+  margin: 0 10px;
+}
+
+.tchalla .text-wrapper ul li {
+  margin-bottom: 10px;
+}
+
+.tchalla .text-wrapper ul li a,
+.tchalla .text-wrapper ul li span {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.tchalla .text-wrapper ul li small {
+  font-size: .9em;
+  font-weight: normal;
+}
+
+.tchalla aside img[title="Black Panther"] {
+  width: 80%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  bottom: -40rem;
+}
+
+/*---- Contact section -----*/
+.contact {
+  width: 100%;
+  height: 40rem;
+  color: var(--dark-color);
+  background-image: url("../img/Accueil/Pantherhome7.png");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-wrapper {
+  width: 50%;
+  height: 30rem;
+  padding-top: 1rem;
+  background-image: linear-gradient(to bottom, #f7f2f2, #ffffff62 60%, #ffffff11 80%);
+  border-radius: 9rem;
+  text-align: center;
+}
+
+.contact-wrapper form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.contact-wrapper p {
+  font-size: .9rem;
+  margin-bottom: 10px;
+}
+
+.contact-wrapper h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.contact-wrapper form input,
+.contact-wrapper form textarea,
+.contact-wrapper form button,
+.contact-wrapper h2 {
+  display: block;
+  color: var(--dark-color);
+  font-family: Cantarell, sans-serif;
+  margin-bottom: 20px;
+}
+
+.contact-wrapper form input {
+  width: 100%;
+  height: 2.5rem;
+  padding: 5px 0 5px 25px;
+  border-radius: 38px;
+  border: 2px solid var(--dark-color);
+  background: none;
+}
+
+.contact-wrapper form textarea {
+  width: 100%;
+  height: 10rem;
+  padding: 5px 0 5px 25px;
+  border-radius: 38px;
+  border: 2px solid var(--dark-color);
+  background: none;
+}
+
+.contact-wrapper form button {
+  width: 40%;
+  margin: 0 auto;
+  padding: 10px 0;
+  border-radius: 25px;
+  border: none;
+  font-size: .8rem;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+/*--- Contact focus and hover ---*/
+.contact-wrapper form input:focus,
+.contact-wrapper form textarea:focus {
+  border: 2px solid var(--dark-color);
+  outline: none;
+}
+
+main {
+  margin-bottom: 8rem;
+}

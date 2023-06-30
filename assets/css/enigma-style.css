@@ -1,0 +1,85 @@
+.intro {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: end;
+  padding: 5rem 15rem 10rem 0;
+  background: url("../img/Enigme/Pantherenigme1.png") 5% 65%/60% no-repeat, url("../img/Enigme/Pantherenigme2.png") 90% 100%/60% no-repeat;
+}
+
+.intro h1 {
+  width: 50%;
+  font-size: 3rem;
+  text-align: justify;
+  letter-spacing: .2rem;
+  line-height: 4rem;
+  font-family: Beyno, sans-serif;
+  color: var(--grey-color);
+  margin-bottom: 5rem;
+}
+
+.intro p {
+  width: 40%;
+  text-align: justify;
+}
+
+.enigma {
+  padding: 5rem 0 0 10rem;
+  background: url("../img/Enigme/Pantherenigme2.png") 100%/47% no-repeat;
+  position: relative;
+}
+
+.enigma .morse-code {
+  font-family: wakanda, sans-serif;
+  width: 50%;
+  font-size: 2rem;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+}
+
+.enigma .hint {
+  width: 40%;
+}
+
+.enigma .hint span {
+  font-family: wakanda, sans-serif;
+}
+
+.enigma form {
+  width: 40%;
+  margin: 5rem 0 10rem 0;
+  padding-bottom: 2rem;
+  position: relative;
+}
+
+form input {
+  width: 90%;
+  margin: 1rem auto 4rem;
+  padding: 10px 0 10px 10px;
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 30px;
+}
+
+form button {
+  width: 30%;
+  padding: 10px 0;
+  border: none;
+  border-radius: 20px;
+  font-size: .8rem;
+  font-family: Cantarell, sans-serif;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+.enigma aside {
+  width: 50%;
+  text-align: center;
+  font-size: .8rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}
